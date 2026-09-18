@@ -352,12 +352,12 @@ Calculates portfolio-wide metrics including:
 - Performance counts
 
 
-“display_portfolio_report()”
+`display_portfolio_report()`
 
 Produces a structured portfolio performance report containing overall and individual asset performance.
 
 
-“generate_risk_flags()”
+`generate_risk_flags()`
 
 Identifies project-defined risk conditions such as:
 
@@ -385,12 +385,12 @@ The score is constrained between:
 «The health score is a learning exercise and should not be interpreted as a professional portfolio rating.»
 
 
-“get_best_and_worst()”
+`get_best_and_worst()`
 
 Identifies the assets with the highest and lowest calculated returns.
 
 
-“display_management_summary()”
+`display_management_summary()`
 
 Converts the analytical results into a concise management-level summary containing:
 
@@ -407,12 +407,12 @@ Converts the analytical results into a concise management-level summary containi
 - Portfolio health score
 
 
-Interactive Portfolio Menu
+## Interactive Portfolio Menu
 
 The final system includes an interactive menu that allows users to select specific analyses.
 
-SMARTINVEST AFRICA
-PORTFOLIO PERFORMANCE ANALYSIS SYSTEM
+**SMARTINVEST AFRICA**
+**PORTFOLIO PERFORMANCE ANALYSIS SYSTEM**
 
 1. Portfolio Summary
 2. Asset Performance
@@ -429,36 +429,36 @@ PORTFOLIO PERFORMANCE ANALYSIS SYSTEM
 Instead of running every analysis manually, the user can select the information they want to inspect.
 
 
-Dataset Performance Snapshot
+### Dataset Performance Snapshot
 
 Using the supplied fictional dataset, the integrated calculations produce:
 
-Metric| Result
-Investments Analysed| 20
-Total Initial Investment| 3,137,500
-Total Current Value| 3,287,100
-Total Net Profit/Loss| 174,900
-Overall Portfolio Return| 5.57%
-Average Asset Return| 6.06%
-Profitable Assets| 15
-Loss-Making Assets| 5
+- Metric| Result
+- Investments Analysed| 20
+- Total Initial Investment| 3,137,500
+- Total Current Value| 3,287,100
+- Total Net Profit/Loss| 174,900
+- Overall Portfolio Return| 5.57%
+- Average Asset Return| 6.06%
+- Profitable Assets| 15
+- Loss-Making Assets| 5
 
-Performance Classification
+### Performance Classification
 
 Category| Number of Assets
-Excellent| 1
-Positive| 13
-Low Positive| 1
-Loss| 5
+- Excellent| 1
+- Positive| 13
+- Low Positive| 1
+- Loss| 5
 
 These results are calculated directly from the fictional records supplied in the project notebook.
 
 
-Performance Highlights
+### Performance Highlights
 
 Based on the project’s calculations:
 
-Highest Return
+`Highest Return`
 
 Green Telecom
 
@@ -466,7 +466,7 @@ Approximately:
 
 16.13%
 
-Lowest Return
+`Lowest Return`
 
 Unity Bank
 
@@ -474,7 +474,7 @@ Approximately:
 
 -6.30%
 
-Portfolio Result
+`Portfolio Result`
 
 The fictional portfolio produces a positive net result of:
 
@@ -487,7 +487,7 @@ With an overall calculated return of approximately:
 These are descriptive outputs from the supplied dataset and are not recommendations to buy, sell, or hold any investment.
 
 
-Technologies and Concepts
+### Technologies and Concepts
 
 Technology
 
@@ -495,7 +495,7 @@ Technology
 - Jupyter Notebook
 - GitHub
 
-Python Concepts
+### Python Concepts
 
 The project demonstrates:
 
@@ -525,7 +525,7 @@ The project demonstrates:
 No external Python libraries are required for the core project.
 
 
-Repository Structure
+## Repository Structure
 
 A recommended GitHub repository structure is:
 
@@ -542,9 +542,9 @@ Smart-Investment-Portfolio-Performance-Analysis/
     └── interactive-menu.png
 
 
-How to Run
+## How to Run
 
-Option 1 — Jupyter Notebook
+#### Option 1 — Jupyter Notebook
 
 Open the notebook in:
 
@@ -556,26 +556,26 @@ Open the notebook in:
 Run the cells sequentially from the dataset section through the integrated analysis system.
 
 
-Option 2 — Google Colab
+#### Option 2 — Google Colab
 
 Upload the “.ipynb” file into Google Colab and execute the notebook cells.
 
 No external package installation is required for the core analysis.
 
 
-Testing Approach
+### Testing Approach
 
 The project uses several testing approaches:
 
-Normal Dataset Testing
+### Normal Dataset Testing
 
 The 20 fictional investment records are processed through the analytical calculations.
 
-Invalid Data Testing
+### Invalid Data Testing
 
 A deliberately invalid test asset is used to demonstrate data-quality validation.
 
-Multiple Analytical Views
+### Multiple Analytical Views
 
 The same dataset is examined through:
 
@@ -591,7 +591,7 @@ The same dataset is examined through:
 This provides multiple perspectives on the same underlying data.
 
 
-Key Learning Outcomes
+## Key Learning Outcomes
 
 This project demonstrates an important transition in learning Python:
 
@@ -599,7 +599,8 @@ This project demonstrates an important transition in learning Python:
 
 The project shows how simple Python concepts can be combined to solve a structured business problem.
 
-Key lessons include:
+
+## Key lessons include:
 
 1. Breaking a complex problem into smaller analytical tasks.
 2. Representing multiple records using lists and dictionaries.
@@ -613,7 +614,7 @@ Key lessons include:
 10. Building an interactive menu around reusable analytical functions.
 
 
-Future Improvements
+## Future Improvements
 
 The current system is intentionally built around fundamental Python concepts. Future versions could expand its capabilities with:
 
@@ -634,7 +635,7 @@ The current system is intentionally built around fundamental Python concepts. Fu
 These improvements would move the project from an educational console application toward a more comprehensive portfolio analytics application.
 
 
-Disclaimer
+## Disclaimer
 
 This project uses a fictional dataset created for educational purposes.
 
@@ -645,7 +646,7 @@ They should not be treated as financial advice, investment recommendations, cred
 Currencies in the dataset are retained as descriptive fields and are not converted between exchange rates.
 
 
-Acknowledgements
+## Acknowledgements
 
 This project was completed as part of the Python Study Group by Team-D.
 
@@ -654,31 +655,31 @@ Special recognition to Coach Timothy for the practical learning framework and gu
 Recognition is also given to SmartBizCrux as requested in the project submission guidelines.
 
 
-Team-D
+## Team-D
 
-Team-D — Python Study Group
+**Team-D — Python Study Group**
 
-Project Focus
+**Project Focus**
 
-Portfolio Performance Analysis System
+`Portfolio Performance Analysis System`
 
-Case Study
+**Case Study**
 
-SmartInvest Africa
+`SmartInvest Africa`
 
-Project Type
+**Project Type**
 
-Educational / Python Analytics Project
+`Educational / Python Analytics Project`
 
 
-Connect and Collaborate
+**Connect and Collaborate**
 
-This repository represents a practical learning project and an evolving step toward applying Python to business and analytical problems.
+> This repository represents a practical learning project and an evolving step toward applying Python to business and analytical problems.
 
 Feedback, suggestions, and constructive contributions are welcome.
 
 
-Project Summary
+## Project Summary
 
 SmartInvest Africa Portfolio Performance Analysis System
 
